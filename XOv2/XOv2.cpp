@@ -5,6 +5,7 @@
 #include <windows.h>
 #include <conio.h>
 #include <ctype.h>
+#include <math.h.>
 struct number
 {
 	int x=0;
@@ -135,7 +136,7 @@ int main()
 		block();
 		printxo();
 		
-		printf("Player %d Turn\n", ((player * player) / player));
+		printf("Player %d Turn\n", abs(player));
 		printf("Enter ASCII of A-Y Which You Want If not you lost:");
 		scanf("%d", &cache);
 		g = cache;
