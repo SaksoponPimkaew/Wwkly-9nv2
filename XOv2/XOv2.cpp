@@ -85,13 +85,13 @@ void winner() {
 	}
 	else if (XO[0].pic * XO[6].pic * XO[12].pic * XO[18].pic * XO[24].pic == 32)
 	{
-		printf("Player X Won X!!!");
+		printf("Player X Won !!!");
 		xo();
 		system("pause");
 	}
 	else if (XO[4].pic * XO[8].pic * XO[12].pic * XO[16].pic * XO[20].pic == 32)
 	{
-		printf("Player X Won! X!!");
+		printf("Player X Won! !!");
 		xo();
 		system("pause");
 	}
@@ -140,7 +140,6 @@ int main()
 		printf("Enter ASCII of A-Y Which You Want If not you lost:");
 		scanf("%d", &cache);
 		g = cache;
-
 
 
 		
